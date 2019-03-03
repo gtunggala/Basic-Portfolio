@@ -3,15 +3,20 @@ body {
     background-size: cover;
 }
 
-header {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    background-color: #ffffff;
+#topname {
+    font-family:'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    padding: 20px;
+    margin-left: 227px;
 }
 
 .navbar {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     display: flex;
     justify-content: space-between;
+
+    padding-top: -60px;
+    padding-bottom: -20px;
 }
 
 .me {
@@ -25,7 +30,7 @@ header {
 
 #headers {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    background-color:  #ffffff
+    background-color:  #ffffff;
 }
 
 #damn-line {
@@ -52,15 +57,23 @@ header {
     margin: 15px;
 }
 
-h1 {
-    background-color: #fdfdfd
+.hangman {  
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 0;
 }
 
 footer {
     background-color: #666666;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     border-top: 5px solid #4aaaa5;
-}
+    text-align: center;
 
-.imageboxes {
+    width:100%;
+    height:10%; 
+    position:absolute;
+    bottom:0;
+    left:0;
 }
