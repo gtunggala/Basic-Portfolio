@@ -1,5 +1,5 @@
 body {
-    background-image: url(assets/images/ep_naturalblack.png);
+    background-image: url(../images/ep_naturalblack.png);
     background-size: cover;
 }
 
@@ -9,8 +9,18 @@ header {
 }
 
 .navbar {
-    float: right;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.me {
+    max-width:30%;
+    max-height:30%; 
+    float: left;   
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
 }
 
 #headers {
@@ -18,12 +28,30 @@ header {
     background-color:  #ffffff
 }
 
-.content {
+#damn-line {
+    border-width: medium;
+}
+
+.mainbox {
+    background-color: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: medium;
+    letter-spacing: 1px;
+    padding: 15px;
+    width: 70%;
+    height: 70%;
+    align-self: center;
+    margin-left: 15%;
+
+}
+
+h1 {
+    background-color: #fdfdfd
 }
 
 footer {
     background-color: #666666;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-top: 5px solid #4aaaa5;
 
 }
