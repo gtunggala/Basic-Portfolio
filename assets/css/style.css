@@ -2,8 +2,9 @@ body {
     /* letter-spacing: 1px; */
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     /* font-size: medium; */
-    background-image: url(../images/ep_naturalblack.png);
+    /* background-image: url(../images/ep_naturalblack.png); */
     background-size: cover;
+    background-color: #d6d6d6;
   }
 
 
@@ -54,8 +55,8 @@ body {
     width: 100%;
     margin: 0 0 30px;
     overflow: auto;
-    color: #ffffff;
-    background: #ffffff;
+    color: #666666;
+    background: #666666;
     border-bottom: 2px solid #cccccc;
   }
   
@@ -127,7 +128,7 @@ footer {
     max-width: 960px;
     padding: 30px;
     margin: 0 0 40px;
-    background: #ffffff;
+    background: #ffffffce;
     border: 1px solid #dddddd;
   }
 
@@ -156,8 +157,9 @@ footer {
   .imageboxes h3 {
     position: absolute;
     bottom: 35px;
-    width: 100%;
-    padding: 15px;
+    width:300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     margin-bottom: 0;
     font-weight: 300;
     line-height: 30px;
